@@ -1,0 +1,95 @@
+class Zwirzęta:
+    def __init__(self, wiek, imie):
+        self.wiek = wiek
+        self.imie = imie
+        
+class Pies(Zwirzęta):
+    def dzwiek(self):
+        print("hał hał")
+        
+pies = Pies(2, "Reksio")
+print(pies.imie)
+print(pies.wiek)
+pies.dzwiek()
+
+print(" ")
+
+class Kot(Zwirzęta):
+    def dzwiek(self):
+        print("miał miał")
+        
+kot = Kot(2, "ciastek")
+print(kot.imie)
+print(kot.wiek)
+kot.dzwiek()
+print(" ")
+
+class Krowa(Zwirzęta):
+    def dzwiek(self):
+        print("mu mu")
+        
+class Mysz(Zwirzęta):
+    def dzwiek(self):
+        print("cyk cyk")
+        
+class Ryba(Zwirzęta):
+    def dzwiek(self):
+        print("plum plum")
+        
+        
+        
+        
+    
+    
+class Politycy:
+    def __init__(self, waga, imie):
+        self.waga = waga
+        self.imie = imie
+        
+class Andrzej(Politycy):
+    def postulat():
+        print("drozsze piwo!")
+
+class Jarek (Politycy):
+    def postulat():
+        print("wiecej władzy")
+        
+class Korwin (Politycy):
+    def postulat():
+        print(" duzo cukru")
+        
+class Terlecki (Politycy):
+    def postulat():
+        print("wiecej spokoju")
+        
+class Morawiecki (Politycy):
+    def postulat():
+        print("ekstraklasa potęgo")
+    
+class Miasta_z_dostępem_do_morza:
+    def __init__(self , iloscmieszkancowWtys , nazwa):
+        self.iloscmieszkancowWtys = iloscmieszkancowWtys
+        self.nazwa = nazwa
+        
+        
+class Gdansk (Miasta_z_dostępem_do_morza):
+    def atrakcje():
+        print("trampolina")
+        
+class Sopot (Miasta_z_dostępem_do_morza):
+    def atrakcje(self):
+        print("molo")
+Sopot = Sopot(37, "Sopot")
+print(Sopot.iloscmieszkancowWtys)
+print(Sopot.nazwa)
+Sopot.atrakcje()
+class Gdynia (Miasta_z_dostępem_do_morza):
+    def atrakcje():
+        print("dynia")
+        
+class Łeba (Miasta_z_dostępem_do_morza):
+    def atrakcje():
+        print("basen")
+class Krynica (Miasta_z_dostępem_do_morza):
+    def atrakcje():
+        print("meduzy")
